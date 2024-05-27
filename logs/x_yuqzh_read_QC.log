@@ -1,0 +1,2680 @@
+Sun May 26 23:07:52 CEST 2024
+Exporting run accessions...
+Downloading FASTQ files...
+srun: job 35108772 queued and waiting for resources
+srun: job 35108772 has been allocated resources
+Read 60329 spots for ERR6913121
+Written 60329 spots for ERR6913121
+Read 101549 spots for ERR6913217
+Written 101549 spots for ERR6913217
+Read 453964 spots for ERR6913301
+Written 453964 spots for ERR6913301
+Read 824622 spots for ERR6913330
+Written 824622 spots for ERR6913330
+Read 1069874 spots for ERR6913303
+Written 1069874 spots for ERR6913303
+Read 1244676 spots for ERR6913332
+Written 1244676 spots for ERR6913332
+Read 115593 spots for ERR6913164
+Written 115593 spots for ERR6913164
+Read 13784 spots for ERR6913260
+Written 13784 spots for ERR6913260
+Read 185161 spots for ERR6913167
+Written 185161 spots for ERR6913167
+Read 24695 spots for ERR6913263
+Written 24695 spots for ERR6913263
+Verifying number of FASTQ files...
+Number of FASTQ files is correct: 20.
+Counting the number of reads in each FASTQ file...
+./data/sra_fastq/ERR6913121_1.fastq.gz: 60329 reads
+./data/sra_fastq/ERR6913121_2.fastq.gz: 60329 reads
+./data/sra_fastq/ERR6913164_1.fastq.gz: 115593 reads
+./data/sra_fastq/ERR6913164_2.fastq.gz: 115593 reads
+./data/sra_fastq/ERR6913167_1.fastq.gz: 185161 reads
+./data/sra_fastq/ERR6913167_2.fastq.gz: 185161 reads
+./data/sra_fastq/ERR6913217_1.fastq.gz: 101549 reads
+./data/sra_fastq/ERR6913217_2.fastq.gz: 101549 reads
+./data/sra_fastq/ERR6913260_1.fastq.gz: 13784 reads
+./data/sra_fastq/ERR6913260_2.fastq.gz: 13784 reads
+./data/sra_fastq/ERR6913263_1.fastq.gz: 24695 reads
+./data/sra_fastq/ERR6913263_2.fastq.gz: 24695 reads
+./data/sra_fastq/ERR6913301_1.fastq.gz: 453964 reads
+./data/sra_fastq/ERR6913301_2.fastq.gz: 453964 reads
+./data/sra_fastq/ERR6913303_1.fastq.gz: 1069874 reads
+./data/sra_fastq/ERR6913303_2.fastq.gz: 1069874 reads
+./data/sra_fastq/ERR6913330_1.fastq.gz: 824622 reads
+./data/sra_fastq/ERR6913330_2.fastq.gz: 824622 reads
+./data/sra_fastq/ERR6913332_1.fastq.gz: 1244676 reads
+./data/sra_fastq/ERR6913332_2.fastq.gz: 1244676 reads
+The base call quality scores are encoded in these FASTQ files using ASCII characters to represent Phred quality scores. The ASCII value of the character can be converted to the Phred score by subtracting a fixed value (33).
+Printing statistics for each FASTQ file obtained from seqkit stats...
+srun: job 35108781 queued and waiting for resources
+srun: job 35108781 has been allocated resources
+processed files:  3 / 20 [>----] ETA: 0s
+[1A[Jprocessed files:  10 / 20 [=>--] ETA: 0s
+[1A[Jprocessed files:  12 / 20 [=>--] ETA: 0s
+[1A[Jprocessed files:  12 / 20 [=>--] ETA: 0s
+[1A[Jprocessed files:  12 / 20 [=>--] ETA: 0s
+[1A[Jprocessed files:  12 / 20 [=>--] ETA: 0s
+[1A[Jprocessed files:  14 / 20 [==>-] ETA: 0s
+[1A[Jprocessed files:  14 / 20 [==>-] ETA: 0s
+[1A[Jprocessed files:  14 / 20 [==>-] ETA: 0s
+[1A[Jprocessed files:  16 / 20 [==>-] ETA: 0s
+[1A[Jprocessed files:  16 / 20 [==>-] ETA: 0s
+[1A[Jprocessed files:  16 / 20 [==>-] ETA: 0s
+[1A[Jprocessed files:  16 / 20 [==>-] ETA: 0s
+[1A[Jprocessed files:  17 / 20 [==>-] ETA: 0s
+[1A[Jprocessed files:  18 / 20 [====] ETA: 0s
+[1A[Jprocessed files:  20 / 20 [====] ETA: 0s
+[1A[Jprocessed files:  20 / 20  ETA: 0s. done
+[1A[Jprocessed files:  20 / 20  ETA: 0s. done
+file                                    format  type   num_seqs      sum_len  min_len  avg_len  max_len
+./data/sra_fastq/ERR6913121_1.fastq.gz  FASTQ   DNA      60,329    6,694,844       35      111      151
+./data/sra_fastq/ERR6913121_2.fastq.gz  FASTQ   DNA      60,329    6,694,428       35      111      151
+./data/sra_fastq/ERR6913164_1.fastq.gz  FASTQ   DNA     115,593   14,778,510       35    127.8      151
+./data/sra_fastq/ERR6913164_2.fastq.gz  FASTQ   DNA     115,593   14,777,827       35    127.8      151
+./data/sra_fastq/ERR6913167_1.fastq.gz  FASTQ   DNA     185,161   23,459,055       35    126.7      151
+./data/sra_fastq/ERR6913167_2.fastq.gz  FASTQ   DNA     185,161   23,460,900       35    126.7      151
+./data/sra_fastq/ERR6913217_1.fastq.gz  FASTQ   DNA     101,549    9,869,799       35     97.2      151
+./data/sra_fastq/ERR6913217_2.fastq.gz  FASTQ   DNA     101,549    9,869,560       35     97.2      151
+./data/sra_fastq/ERR6913260_1.fastq.gz  FASTQ   DNA      13,784    1,641,552       35    119.1      151
+./data/sra_fastq/ERR6913260_2.fastq.gz  FASTQ   DNA      13,784    1,641,109       35    119.1      151
+./data/sra_fastq/ERR6913263_1.fastq.gz  FASTQ   DNA      24,695    2,766,283       35      112      151
+./data/sra_fastq/ERR6913263_2.fastq.gz  FASTQ   DNA      24,695    2,766,467       35      112      151
+./data/sra_fastq/ERR6913301_1.fastq.gz  FASTQ   DNA     453,964   54,718,684       35    120.5      151
+./data/sra_fastq/ERR6913301_2.fastq.gz  FASTQ   DNA     453,964   54,717,884       35    120.5      151
+./data/sra_fastq/ERR6913303_1.fastq.gz  FASTQ   DNA   1,069,874  136,727,103       35    127.8      151
+./data/sra_fastq/ERR6913303_2.fastq.gz  FASTQ   DNA   1,069,874  136,718,485       35    127.8      151
+./data/sra_fastq/ERR6913330_1.fastq.gz  FASTQ   DNA     824,622   87,082,617       35    105.6      151
+./data/sra_fastq/ERR6913330_2.fastq.gz  FASTQ   DNA     824,622   87,074,616       35    105.6      151
+./data/sra_fastq/ERR6913332_1.fastq.gz  FASTQ   DNA   1,244,676  148,895,856       35    119.6      151
+./data/sra_fastq/ERR6913332_2.fastq.gz  FASTQ   DNA   1,244,676  148,883,677       35    119.6      151
+Checking for duplicate reads in FASTQ files...
+srun: job 35108782 queued and waiting for resources
+srun: job 35108782 has been allocated resources
+[INFO][0m 4193 duplicated records removed
+srun: job 35108783 queued and waiting for resources
+srun: job 35108783 has been allocated resources
+[INFO][0m 4277 duplicated records removed
+srun: job 35108784 queued and waiting for resources
+srun: job 35108784 has been allocated resources
+[INFO][0m 8475 duplicated records removed
+srun: job 35108785 queued and waiting for resources
+srun: job 35108785 has been allocated resources
+[INFO][0m 8276 duplicated records removed
+srun: job 35108786 queued and waiting for resources
+srun: job 35108786 has been allocated resources
+[INFO][0m 14741 duplicated records removed
+srun: job 35108788 queued and waiting for resources
+srun: job 35108788 has been allocated resources
+[INFO][0m 14446 duplicated records removed
+srun: job 35108789 queued and waiting for resources
+srun: job 35108789 has been allocated resources
+[INFO][0m 19185 duplicated records removed
+srun: job 35108790 queued and waiting for resources
+srun: job 35108790 has been allocated resources
+[INFO][0m 19111 duplicated records removed
+srun: job 35108793 queued and waiting for resources
+srun: job 35108793 has been allocated resources
+[INFO][0m 1451 duplicated records removed
+srun: job 35108795 queued and waiting for resources
+srun: job 35108795 has been allocated resources
+[INFO][0m 1434 duplicated records removed
+srun: job 35108796 queued and waiting for resources
+srun: job 35108796 has been allocated resources
+[INFO][0m 4116 duplicated records removed
+srun: job 35108798 queued and waiting for resources
+srun: job 35108798 has been allocated resources
+[INFO][0m 4095 duplicated records removed
+srun: job 35108799 queued and waiting for resources
+srun: job 35108799 has been allocated resources
+[INFO][0m 43290 duplicated records removed
+srun: job 35108800 queued and waiting for resources
+srun: job 35108800 has been allocated resources
+[INFO][0m 42221 duplicated records removed
+srun: job 35108801 queued and waiting for resources
+srun: job 35108801 has been allocated resources
+[INFO][0m 91967 duplicated records removed
+srun: job 35108803 queued and waiting for resources
+srun: job 35108803 has been allocated resources
+[INFO][0m 88883 duplicated records removed
+srun: job 35108805 queued and waiting for resources
+srun: job 35108805 has been allocated resources
+[INFO][0m 255907 duplicated records removed
+srun: job 35108806 queued and waiting for resources
+srun: job 35108806 has been allocated resources
+[INFO][0m 253257 duplicated records removed
+srun: job 35108807 queued and waiting for resources
+srun: job 35108807 has been allocated resources
+[INFO][0m 318593 duplicated records removed
+srun: job 35108808 queued and waiting for resources
+srun: job 35108808 has been allocated resources
+[INFO][0m 314759 duplicated records removed
+The FASTQ files have not been de-replicated. Considering we will ultimately want to produce quantitative estimates of the pathogens present in the patient samples, the replicated version of files is better to work with.
+Checking if FASTQ files have been trimmed of adapters AGATCGGAAGAGCACACGTCTGAACTCCAGTCA and AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT...
+srun: job 35108810 queued and waiting for resources
+srun: job 35108810 has been allocated resources
+seqID	patternName	pattern	strand	start	end	matched
+srun: job 35108812 queued and waiting for resources
+srun: job 35108812 has been allocated resources
+seqID	patternName	pattern	strand	start	end	matched
+The FASTQ files have already been trimmed of their sequencing kit adapters.
+Performing quality control with fastQC...
+srun: job 35108813 queued and waiting for resources
+srun: job 35108813 has been allocated resources
+application/gzip
+application/gzip
+Started analysis of ERR6913121_1.fastq.gz
+Approx 5% complete for ERR6913121_1.fastq.gz
+Approx 10% complete for ERR6913121_1.fastq.gz
+Approx 15% complete for ERR6913121_1.fastq.gz
+Approx 20% complete for ERR6913121_1.fastq.gz
+Approx 25% complete for ERR6913121_1.fastq.gz
+Approx 30% complete for ERR6913121_1.fastq.gz
+Approx 35% complete for ERR6913121_1.fastq.gz
+Approx 40% complete for ERR6913121_1.fastq.gz
+Approx 45% complete for ERR6913121_1.fastq.gz
+Approx 50% complete for ERR6913121_1.fastq.gz
+Approx 55% complete for ERR6913121_1.fastq.gz
+Approx 60% complete for ERR6913121_1.fastq.gz
+Approx 65% complete for ERR6913121_1.fastq.gz
+Approx 70% complete for ERR6913121_1.fastq.gz
+Started analysis of ERR6913121_2.fastq.gz
+Approx 75% complete for ERR6913121_1.fastq.gz
+Approx 5% complete for ERR6913121_2.fastq.gz
+Approx 80% complete for ERR6913121_1.fastq.gz
+Approx 10% complete for ERR6913121_2.fastq.gz
+Approx 85% complete for ERR6913121_1.fastq.gz
+Approx 15% complete for ERR6913121_2.fastq.gz
+Approx 20% complete for ERR6913121_2.fastq.gz
+Approx 90% complete for ERR6913121_1.fastq.gz
+Approx 95% complete for ERR6913121_1.fastq.gz
+Approx 25% complete for ERR6913121_2.fastq.gz
+Analysis complete for ERR6913121_1.fastq.gz
+Approx 30% complete for ERR6913121_2.fastq.gz
+Approx 35% complete for ERR6913121_2.fastq.gz
+Approx 40% complete for ERR6913121_2.fastq.gz
+Approx 45% complete for ERR6913121_2.fastq.gz
+Approx 50% complete for ERR6913121_2.fastq.gz
+Approx 55% complete for ERR6913121_2.fastq.gz
+Approx 60% complete for ERR6913121_2.fastq.gz
+Approx 65% complete for ERR6913121_2.fastq.gz
+Approx 70% complete for ERR6913121_2.fastq.gz
+Approx 75% complete for ERR6913121_2.fastq.gz
+Approx 80% complete for ERR6913121_2.fastq.gz
+Approx 85% complete for ERR6913121_2.fastq.gz
+Approx 90% complete for ERR6913121_2.fastq.gz
+Approx 95% complete for ERR6913121_2.fastq.gz
+Analysis complete for ERR6913121_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of ERR6913217_1.fastq.gz
+Approx 5% complete for ERR6913217_1.fastq.gz
+Approx 10% complete for ERR6913217_1.fastq.gz
+Approx 15% complete for ERR6913217_1.fastq.gz
+Approx 20% complete for ERR6913217_1.fastq.gz
+Approx 25% complete for ERR6913217_1.fastq.gz
+Approx 30% complete for ERR6913217_1.fastq.gz
+Approx 35% complete for ERR6913217_1.fastq.gz
+Approx 40% complete for ERR6913217_1.fastq.gz
+Approx 45% complete for ERR6913217_1.fastq.gz
+Approx 50% complete for ERR6913217_1.fastq.gz
+Started analysis of ERR6913217_2.fastq.gz
+Approx 55% complete for ERR6913217_1.fastq.gz
+Approx 5% complete for ERR6913217_2.fastq.gz
+Approx 60% complete for ERR6913217_1.fastq.gz
+Approx 10% complete for ERR6913217_2.fastq.gz
+Approx 65% complete for ERR6913217_1.fastq.gz
+Approx 15% complete for ERR6913217_2.fastq.gz
+Approx 70% complete for ERR6913217_1.fastq.gz
+Approx 20% complete for ERR6913217_2.fastq.gz
+Approx 75% complete for ERR6913217_1.fastq.gz
+Approx 25% complete for ERR6913217_2.fastq.gz
+Approx 80% complete for ERR6913217_1.fastq.gz
+Approx 30% complete for ERR6913217_2.fastq.gz
+Approx 85% complete for ERR6913217_1.fastq.gz
+Approx 35% complete for ERR6913217_2.fastq.gz
+Approx 90% complete for ERR6913217_1.fastq.gz
+Approx 40% complete for ERR6913217_2.fastq.gz
+Approx 95% complete for ERR6913217_1.fastq.gz
+Approx 45% complete for ERR6913217_2.fastq.gz
+Analysis complete for ERR6913217_1.fastq.gz
+Approx 50% complete for ERR6913217_2.fastq.gz
+Approx 55% complete for ERR6913217_2.fastq.gz
+Approx 60% complete for ERR6913217_2.fastq.gz
+Approx 65% complete for ERR6913217_2.fastq.gz
+Approx 70% complete for ERR6913217_2.fastq.gz
+Approx 75% complete for ERR6913217_2.fastq.gz
+Approx 80% complete for ERR6913217_2.fastq.gz
+Approx 85% complete for ERR6913217_2.fastq.gz
+Approx 90% complete for ERR6913217_2.fastq.gz
+Approx 95% complete for ERR6913217_2.fastq.gz
+Analysis complete for ERR6913217_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of ERR6913301_1.fastq.gz
+Approx 5% complete for ERR6913301_1.fastq.gz
+Approx 10% complete for ERR6913301_1.fastq.gz
+Started analysis of ERR6913301_2.fastq.gz
+Approx 15% complete for ERR6913301_1.fastq.gz
+Approx 5% complete for ERR6913301_2.fastq.gz
+Approx 20% complete for ERR6913301_1.fastq.gz
+Approx 10% complete for ERR6913301_2.fastq.gz
+Approx 25% complete for ERR6913301_1.fastq.gz
+Approx 15% complete for ERR6913301_2.fastq.gz
+Approx 30% complete for ERR6913301_1.fastq.gz
+Approx 20% complete for ERR6913301_2.fastq.gz
+Approx 35% complete for ERR6913301_1.fastq.gz
+Approx 25% complete for ERR6913301_2.fastq.gz
+Approx 40% complete for ERR6913301_1.fastq.gz
+Approx 30% complete for ERR6913301_2.fastq.gz
+Approx 45% complete for ERR6913301_1.fastq.gz
+Approx 35% complete for ERR6913301_2.fastq.gz
+Approx 50% complete for ERR6913301_1.fastq.gz
+Approx 40% complete for ERR6913301_2.fastq.gz
+Approx 55% complete for ERR6913301_1.fastq.gz
+Approx 45% complete for ERR6913301_2.fastq.gz
+Approx 60% complete for ERR6913301_1.fastq.gz
+Approx 50% complete for ERR6913301_2.fastq.gz
+Approx 65% complete for ERR6913301_1.fastq.gz
+Approx 55% complete for ERR6913301_2.fastq.gz
+Approx 70% complete for ERR6913301_1.fastq.gz
+Approx 60% complete for ERR6913301_2.fastq.gz
+Approx 75% complete for ERR6913301_1.fastq.gz
+Approx 65% complete for ERR6913301_2.fastq.gz
+Approx 80% complete for ERR6913301_1.fastq.gz
+Approx 70% complete for ERR6913301_2.fastq.gz
+Approx 85% complete for ERR6913301_1.fastq.gz
+Approx 75% complete for ERR6913301_2.fastq.gz
+Approx 90% complete for ERR6913301_1.fastq.gz
+Approx 80% complete for ERR6913301_2.fastq.gz
+Approx 95% complete for ERR6913301_1.fastq.gz
+Approx 85% complete for ERR6913301_2.fastq.gz
+Analysis complete for ERR6913301_1.fastq.gz
+Approx 90% complete for ERR6913301_2.fastq.gz
+Approx 95% complete for ERR6913301_2.fastq.gz
+Analysis complete for ERR6913301_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of ERR6913330_1.fastq.gz
+Approx 5% complete for ERR6913330_1.fastq.gz
+Started analysis of ERR6913330_2.fastq.gz
+Approx 10% complete for ERR6913330_1.fastq.gz
+Approx 5% complete for ERR6913330_2.fastq.gz
+Approx 15% complete for ERR6913330_1.fastq.gz
+Approx 10% complete for ERR6913330_2.fastq.gz
+Approx 20% complete for ERR6913330_1.fastq.gz
+Approx 15% complete for ERR6913330_2.fastq.gz
+Approx 25% complete for ERR6913330_1.fastq.gz
+Approx 20% complete for ERR6913330_2.fastq.gz
+Approx 30% complete for ERR6913330_1.fastq.gz
+Approx 25% complete for ERR6913330_2.fastq.gz
+Approx 35% complete for ERR6913330_1.fastq.gz
+Approx 30% complete for ERR6913330_2.fastq.gz
+Approx 40% complete for ERR6913330_1.fastq.gz
+Approx 35% complete for ERR6913330_2.fastq.gz
+Approx 45% complete for ERR6913330_1.fastq.gz
+Approx 40% complete for ERR6913330_2.fastq.gz
+Approx 50% complete for ERR6913330_1.fastq.gz
+Approx 45% complete for ERR6913330_2.fastq.gz
+Approx 55% complete for ERR6913330_1.fastq.gz
+Approx 50% complete for ERR6913330_2.fastq.gz
+Approx 60% complete for ERR6913330_1.fastq.gz
+Approx 55% complete for ERR6913330_2.fastq.gz
+Approx 65% complete for ERR6913330_1.fastq.gz
+Approx 60% complete for ERR6913330_2.fastq.gz
+Approx 70% complete for ERR6913330_1.fastq.gz
+Approx 65% complete for ERR6913330_2.fastq.gz
+Approx 75% complete for ERR6913330_1.fastq.gz
+Approx 70% complete for ERR6913330_2.fastq.gz
+Approx 80% complete for ERR6913330_1.fastq.gz
+Approx 75% complete for ERR6913330_2.fastq.gz
+Approx 85% complete for ERR6913330_1.fastq.gz
+Approx 80% complete for ERR6913330_2.fastq.gz
+Approx 90% complete for ERR6913330_1.fastq.gz
+Approx 85% complete for ERR6913330_2.fastq.gz
+Approx 95% complete for ERR6913330_1.fastq.gz
+Approx 90% complete for ERR6913330_2.fastq.gz
+Analysis complete for ERR6913330_1.fastq.gz
+Approx 95% complete for ERR6913330_2.fastq.gz
+Analysis complete for ERR6913330_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of ERR6913303_1.fastq.gz
+Approx 5% complete for ERR6913303_1.fastq.gz
+Started analysis of ERR6913303_2.fastq.gz
+Approx 10% complete for ERR6913303_1.fastq.gz
+Approx 5% complete for ERR6913303_2.fastq.gz
+Approx 15% complete for ERR6913303_1.fastq.gz
+Approx 10% complete for ERR6913303_2.fastq.gz
+Approx 20% complete for ERR6913303_1.fastq.gz
+Approx 15% complete for ERR6913303_2.fastq.gz
+Approx 25% complete for ERR6913303_1.fastq.gz
+Approx 20% complete for ERR6913303_2.fastq.gz
+Approx 30% complete for ERR6913303_1.fastq.gz
+Approx 25% complete for ERR6913303_2.fastq.gz
+Approx 35% complete for ERR6913303_1.fastq.gz
+Approx 30% complete for ERR6913303_2.fastq.gz
+Approx 40% complete for ERR6913303_1.fastq.gz
+Approx 35% complete for ERR6913303_2.fastq.gz
+Approx 45% complete for ERR6913303_1.fastq.gz
+Approx 40% complete for ERR6913303_2.fastq.gz
+Approx 50% complete for ERR6913303_1.fastq.gz
+Approx 45% complete for ERR6913303_2.fastq.gz
+Approx 55% complete for ERR6913303_1.fastq.gz
+Approx 50% complete for ERR6913303_2.fastq.gz
+Approx 60% complete for ERR6913303_1.fastq.gz
+Approx 55% complete for ERR6913303_2.fastq.gz
+Approx 65% complete for ERR6913303_1.fastq.gz
+Approx 60% complete for ERR6913303_2.fastq.gz
+Approx 70% complete for ERR6913303_1.fastq.gz
+Approx 65% complete for ERR6913303_2.fastq.gz
+Approx 75% complete for ERR6913303_1.fastq.gz
+Approx 70% complete for ERR6913303_2.fastq.gz
+Approx 80% complete for ERR6913303_1.fastq.gz
+Approx 75% complete for ERR6913303_2.fastq.gz
+Approx 85% complete for ERR6913303_1.fastq.gz
+Approx 80% complete for ERR6913303_2.fastq.gz
+Approx 90% complete for ERR6913303_1.fastq.gz
+Approx 85% complete for ERR6913303_2.fastq.gz
+Approx 95% complete for ERR6913303_1.fastq.gz
+Approx 90% complete for ERR6913303_2.fastq.gz
+Analysis complete for ERR6913303_1.fastq.gz
+Approx 95% complete for ERR6913303_2.fastq.gz
+Analysis complete for ERR6913303_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of ERR6913332_1.fastq.gz
+Approx 5% complete for ERR6913332_1.fastq.gz
+Started analysis of ERR6913332_2.fastq.gz
+Approx 10% complete for ERR6913332_1.fastq.gz
+Approx 5% complete for ERR6913332_2.fastq.gz
+Approx 10% complete for ERR6913332_2.fastq.gz
+Approx 15% complete for ERR6913332_1.fastq.gz
+Approx 20% complete for ERR6913332_1.fastq.gz
+Approx 15% complete for ERR6913332_2.fastq.gz
+Approx 25% complete for ERR6913332_1.fastq.gz
+Approx 20% complete for ERR6913332_2.fastq.gz
+Approx 30% complete for ERR6913332_1.fastq.gz
+Approx 25% complete for ERR6913332_2.fastq.gz
+Approx 35% complete for ERR6913332_1.fastq.gz
+Approx 30% complete for ERR6913332_2.fastq.gz
+Approx 35% complete for ERR6913332_2.fastq.gz
+Approx 40% complete for ERR6913332_1.fastq.gz
+Approx 45% complete for ERR6913332_1.fastq.gz
+Approx 40% complete for ERR6913332_2.fastq.gz
+Approx 50% complete for ERR6913332_1.fastq.gz
+Approx 45% complete for ERR6913332_2.fastq.gz
+Approx 55% complete for ERR6913332_1.fastq.gz
+Approx 50% complete for ERR6913332_2.fastq.gz
+Approx 60% complete for ERR6913332_1.fastq.gz
+Approx 55% complete for ERR6913332_2.fastq.gz
+Approx 65% complete for ERR6913332_1.fastq.gz
+Approx 60% complete for ERR6913332_2.fastq.gz
+Approx 70% complete for ERR6913332_1.fastq.gz
+Approx 65% complete for ERR6913332_2.fastq.gz
+Approx 75% complete for ERR6913332_1.fastq.gz
+Approx 70% complete for ERR6913332_2.fastq.gz
+Approx 80% complete for ERR6913332_1.fastq.gz
+Approx 75% complete for ERR6913332_2.fastq.gz
+Approx 85% complete for ERR6913332_1.fastq.gz
+Approx 80% complete for ERR6913332_2.fastq.gz
+Approx 90% complete for ERR6913332_1.fastq.gz
+Approx 85% complete for ERR6913332_2.fastq.gz
+Approx 95% complete for ERR6913332_1.fastq.gz
+Approx 90% complete for ERR6913332_2.fastq.gz
+Analysis complete for ERR6913332_1.fastq.gz
+Approx 95% complete for ERR6913332_2.fastq.gz
+Analysis complete for ERR6913332_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of ERR6913164_1.fastq.gz
+Approx 5% complete for ERR6913164_1.fastq.gz
+Approx 10% complete for ERR6913164_1.fastq.gz
+Approx 15% complete for ERR6913164_1.fastq.gz
+Approx 20% complete for ERR6913164_1.fastq.gz
+Approx 25% complete for ERR6913164_1.fastq.gz
+Approx 30% complete for ERR6913164_1.fastq.gz
+Approx 35% complete for ERR6913164_1.fastq.gz
+Started analysis of ERR6913164_2.fastq.gz
+Approx 40% complete for ERR6913164_1.fastq.gz
+Approx 5% complete for ERR6913164_2.fastq.gz
+Approx 45% complete for ERR6913164_1.fastq.gz
+Approx 10% complete for ERR6913164_2.fastq.gz
+Approx 50% complete for ERR6913164_1.fastq.gz
+Approx 15% complete for ERR6913164_2.fastq.gz
+Approx 55% complete for ERR6913164_1.fastq.gz
+Approx 20% complete for ERR6913164_2.fastq.gz
+Approx 60% complete for ERR6913164_1.fastq.gz
+Approx 25% complete for ERR6913164_2.fastq.gz
+Approx 65% complete for ERR6913164_1.fastq.gz
+Approx 30% complete for ERR6913164_2.fastq.gz
+Approx 70% complete for ERR6913164_1.fastq.gz
+Approx 35% complete for ERR6913164_2.fastq.gz
+Approx 75% complete for ERR6913164_1.fastq.gz
+Approx 40% complete for ERR6913164_2.fastq.gz
+Approx 80% complete for ERR6913164_1.fastq.gz
+Approx 45% complete for ERR6913164_2.fastq.gz
+Approx 85% complete for ERR6913164_1.fastq.gz
+Approx 50% complete for ERR6913164_2.fastq.gz
+Approx 90% complete for ERR6913164_1.fastq.gz
+Approx 55% complete for ERR6913164_2.fastq.gz
+Approx 95% complete for ERR6913164_1.fastq.gz
+Approx 60% complete for ERR6913164_2.fastq.gz
+Analysis complete for ERR6913164_1.fastq.gz
+Approx 65% complete for ERR6913164_2.fastq.gz
+Approx 70% complete for ERR6913164_2.fastq.gz
+Approx 75% complete for ERR6913164_2.fastq.gz
+Approx 80% complete for ERR6913164_2.fastq.gz
+Approx 85% complete for ERR6913164_2.fastq.gz
+Approx 90% complete for ERR6913164_2.fastq.gz
+Approx 95% complete for ERR6913164_2.fastq.gz
+Analysis complete for ERR6913164_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of ERR6913260_1.fastq.gz
+Approx 5% complete for ERR6913260_1.fastq.gz
+Approx 10% complete for ERR6913260_1.fastq.gz
+Approx 20% complete for ERR6913260_1.fastq.gz
+Approx 25% complete for ERR6913260_1.fastq.gz
+Approx 35% complete for ERR6913260_1.fastq.gz
+Approx 40% complete for ERR6913260_1.fastq.gz
+Approx 50% complete for ERR6913260_1.fastq.gz
+Approx 55% complete for ERR6913260_1.fastq.gz
+Approx 65% complete for ERR6913260_1.fastq.gz
+Approx 70% complete for ERR6913260_1.fastq.gz
+Approx 75% complete for ERR6913260_1.fastq.gz
+Approx 85% complete for ERR6913260_1.fastq.gz
+Approx 90% complete for ERR6913260_1.fastq.gz
+Analysis complete for ERR6913260_1.fastq.gz
+Started analysis of ERR6913260_2.fastq.gz
+Approx 5% complete for ERR6913260_2.fastq.gz
+Approx 10% complete for ERR6913260_2.fastq.gz
+Approx 20% complete for ERR6913260_2.fastq.gz
+Approx 25% complete for ERR6913260_2.fastq.gz
+Approx 35% complete for ERR6913260_2.fastq.gz
+Approx 40% complete for ERR6913260_2.fastq.gz
+Approx 50% complete for ERR6913260_2.fastq.gz
+Approx 55% complete for ERR6913260_2.fastq.gz
+Approx 65% complete for ERR6913260_2.fastq.gz
+Approx 70% complete for ERR6913260_2.fastq.gz
+Approx 75% complete for ERR6913260_2.fastq.gz
+Approx 85% complete for ERR6913260_2.fastq.gz
+Approx 90% complete for ERR6913260_2.fastq.gz
+Analysis complete for ERR6913260_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of ERR6913167_1.fastq.gz
+Approx 5% complete for ERR6913167_1.fastq.gz
+Approx 10% complete for ERR6913167_1.fastq.gz
+Approx 15% complete for ERR6913167_1.fastq.gz
+Approx 20% complete for ERR6913167_1.fastq.gz
+Approx 25% complete for ERR6913167_1.fastq.gz
+Started analysis of ERR6913167_2.fastq.gz
+Approx 30% complete for ERR6913167_1.fastq.gz
+Approx 5% complete for ERR6913167_2.fastq.gz
+Approx 35% complete for ERR6913167_1.fastq.gz
+Approx 10% complete for ERR6913167_2.fastq.gz
+Approx 40% complete for ERR6913167_1.fastq.gz
+Approx 15% complete for ERR6913167_2.fastq.gz
+Approx 45% complete for ERR6913167_1.fastq.gz
+Approx 20% complete for ERR6913167_2.fastq.gz
+Approx 50% complete for ERR6913167_1.fastq.gz
+Approx 25% complete for ERR6913167_2.fastq.gz
+Approx 55% complete for ERR6913167_1.fastq.gz
+Approx 30% complete for ERR6913167_2.fastq.gz
+Approx 60% complete for ERR6913167_1.fastq.gz
+Approx 35% complete for ERR6913167_2.fastq.gz
+Approx 65% complete for ERR6913167_1.fastq.gz
+Approx 40% complete for ERR6913167_2.fastq.gz
+Approx 70% complete for ERR6913167_1.fastq.gz
+Approx 45% complete for ERR6913167_2.fastq.gz
+Approx 75% complete for ERR6913167_1.fastq.gz
+Approx 50% complete for ERR6913167_2.fastq.gz
+Approx 80% complete for ERR6913167_1.fastq.gz
+Approx 55% complete for ERR6913167_2.fastq.gz
+Approx 85% complete for ERR6913167_1.fastq.gz
+Approx 60% complete for ERR6913167_2.fastq.gz
+Approx 90% complete for ERR6913167_1.fastq.gz
+Approx 65% complete for ERR6913167_2.fastq.gz
+Approx 95% complete for ERR6913167_1.fastq.gz
+Approx 70% complete for ERR6913167_2.fastq.gz
+Analysis complete for ERR6913167_1.fastq.gz
+Approx 75% complete for ERR6913167_2.fastq.gz
+Approx 80% complete for ERR6913167_2.fastq.gz
+Approx 85% complete for ERR6913167_2.fastq.gz
+Approx 90% complete for ERR6913167_2.fastq.gz
+Approx 95% complete for ERR6913167_2.fastq.gz
+Analysis complete for ERR6913167_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of ERR6913263_1.fastq.gz
+Approx 5% complete for ERR6913263_1.fastq.gz
+Approx 10% complete for ERR6913263_1.fastq.gz
+Approx 15% complete for ERR6913263_1.fastq.gz
+Approx 20% complete for ERR6913263_1.fastq.gz
+Approx 25% complete for ERR6913263_1.fastq.gz
+Approx 30% complete for ERR6913263_1.fastq.gz
+Approx 35% complete for ERR6913263_1.fastq.gz
+Approx 40% complete for ERR6913263_1.fastq.gz
+Approx 45% complete for ERR6913263_1.fastq.gz
+Approx 50% complete for ERR6913263_1.fastq.gz
+Approx 55% complete for ERR6913263_1.fastq.gz
+Approx 60% complete for ERR6913263_1.fastq.gz
+Approx 65% complete for ERR6913263_1.fastq.gz
+Approx 70% complete for ERR6913263_1.fastq.gz
+Approx 75% complete for ERR6913263_1.fastq.gz
+Approx 80% complete for ERR6913263_1.fastq.gz
+Approx 85% complete for ERR6913263_1.fastq.gz
+Approx 90% complete for ERR6913263_1.fastq.gz
+Approx 95% complete for ERR6913263_1.fastq.gz
+Analysis complete for ERR6913263_1.fastq.gz
+Started analysis of ERR6913263_2.fastq.gz
+Approx 5% complete for ERR6913263_2.fastq.gz
+Approx 10% complete for ERR6913263_2.fastq.gz
+Approx 15% complete for ERR6913263_2.fastq.gz
+Approx 20% complete for ERR6913263_2.fastq.gz
+Approx 25% complete for ERR6913263_2.fastq.gz
+Approx 30% complete for ERR6913263_2.fastq.gz
+Approx 35% complete for ERR6913263_2.fastq.gz
+Approx 40% complete for ERR6913263_2.fastq.gz
+Approx 45% complete for ERR6913263_2.fastq.gz
+Approx 50% complete for ERR6913263_2.fastq.gz
+Approx 55% complete for ERR6913263_2.fastq.gz
+Approx 60% complete for ERR6913263_2.fastq.gz
+Approx 65% complete for ERR6913263_2.fastq.gz
+Approx 70% complete for ERR6913263_2.fastq.gz
+Approx 75% complete for ERR6913263_2.fastq.gz
+Approx 80% complete for ERR6913263_2.fastq.gz
+Approx 85% complete for ERR6913263_2.fastq.gz
+Approx 90% complete for ERR6913263_2.fastq.gz
+Approx 95% complete for ERR6913263_2.fastq.gz
+Analysis complete for ERR6913263_2.fastq.gz
+From the fastQC output files, it can be concluded that reads have been trimmed to exclude bases with low quality scores and sequencing library adapters.
+Merging paired-end reads with flash...
+srun: job 35108814 queued and waiting for resources
+srun: job 35108814 has been allocated resources
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913121_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913121_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913121.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913121.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913121.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913121.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913121.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 60329 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      60329
+[FLASH]     Combined pairs:   55440
+[FLASH]     Uncombined pairs: 4889
+[FLASH]     Percent combined: 91.90%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (83.64%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.110 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913217_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913217_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913217.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913217.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913217.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913217.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913217.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 101549 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      101549
+[FLASH]     Combined pairs:   95934
+[FLASH]     Uncombined pairs: 5615
+[FLASH]     Percent combined: 94.47%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (71.47%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.136 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913301_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913301_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913301.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913301.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913301.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913301.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913301.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 453964 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      453964
+[FLASH]     Combined pairs:   374856
+[FLASH]     Uncombined pairs: 79108
+[FLASH]     Percent combined: 82.57%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (83.73%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.681 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913330_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913330_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913330.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913330.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913330.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913330.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913330.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 725000 read pairs
+[FLASH] Processed 750000 read pairs
+[FLASH] Processed 775000 read pairs
+[FLASH] Processed 800000 read pairs
+[FLASH] Processed 824622 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      824622
+[FLASH]     Combined pairs:   768019
+[FLASH]     Uncombined pairs: 56603
+[FLASH]     Percent combined: 93.14%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (76.55%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.095 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913303_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913303_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913303.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913303.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913303.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913303.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913303.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 725000 read pairs
+[FLASH] Processed 750000 read pairs
+[FLASH] Processed 775000 read pairs
+[FLASH] Processed 800000 read pairs
+[FLASH] Processed 825000 read pairs
+[FLASH] Processed 850000 read pairs
+[FLASH] Processed 875000 read pairs
+[FLASH] Processed 900000 read pairs
+[FLASH] Processed 925000 read pairs
+[FLASH] Processed 950000 read pairs
+[FLASH] Processed 975000 read pairs
+[FLASH] Processed 1000000 read pairs
+[FLASH] Processed 1025000 read pairs
+[FLASH] Processed 1050000 read pairs
+[FLASH] Processed 1069874 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      1069874
+[FLASH]     Combined pairs:   847946
+[FLASH]     Uncombined pairs: 221928
+[FLASH]     Percent combined: 79.26%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (84.20%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.685 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913332_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913332_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913332.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913332.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913332.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913332.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913332.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 725000 read pairs
+[FLASH] Processed 750000 read pairs
+[FLASH] Processed 775000 read pairs
+[FLASH] Processed 800000 read pairs
+[FLASH] Processed 825000 read pairs
+[FLASH] Processed 850000 read pairs
+[FLASH] Processed 875000 read pairs
+[FLASH] Processed 900000 read pairs
+[FLASH] Processed 925000 read pairs
+[FLASH] Processed 950000 read pairs
+[FLASH] Processed 975000 read pairs
+[FLASH] Processed 1000000 read pairs
+[FLASH] Processed 1025000 read pairs
+[FLASH] Processed 1050000 read pairs
+[FLASH] Processed 1075000 read pairs
+[FLASH] Processed 1100000 read pairs
+[FLASH] Processed 1125000 read pairs
+[FLASH] Processed 1150000 read pairs
+[FLASH] Processed 1175000 read pairs
+[FLASH] Processed 1200000 read pairs
+[FLASH] Processed 1225000 read pairs
+[FLASH] Processed 1244676 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      1244676
+[FLASH]     Combined pairs:   1113573
+[FLASH]     Uncombined pairs: 131103
+[FLASH]     Percent combined: 89.47%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (87.97%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.848 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913164_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913164_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913164.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913164.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913164.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913164.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913164.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 115593 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      115593
+[FLASH]     Combined pairs:   105554
+[FLASH]     Uncombined pairs: 10039
+[FLASH]     Percent combined: 91.32%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (88.49%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.188 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913260_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913260_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913260.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913260.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913260.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913260.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913260.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 13784 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      13784
+[FLASH]     Combined pairs:   12990
+[FLASH]     Uncombined pairs: 794
+[FLASH]     Percent combined: 94.24%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (86.06%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.029 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913167_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913167_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913167.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913167.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913167.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913167.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913167.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 185161 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      185161
+[FLASH]     Combined pairs:   168385
+[FLASH]     Uncombined pairs: 16776
+[FLASH]     Percent combined: 90.94%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (88.83%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.333 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913263_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913263_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs/ERR6913263.flash.extendedFrags.fastq
+[FLASH]     ./data/merged_pairs/ERR6913263.flash.notCombined_1.fastq
+[FLASH]     ./data/merged_pairs/ERR6913263.flash.notCombined_2.fastq
+[FLASH]     ./data/merged_pairs/ERR6913263.flash.hist
+[FLASH]     ./data/merged_pairs/ERR6913263.flash.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 24695 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      24695
+[FLASH]     Combined pairs:   23172
+[FLASH]     Uncombined pairs: 1523
+[FLASH]     Percent combined: 93.83%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (82.80%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.044 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+The proportion of the reads were merged successfully is indicated by the Percent combined in the output of flash. The .histogram file suggests the frequency of the DNA library insert sizes. The total number of base pairs in the merged reads is close to the initial unmerged reads, it suggests that the merging process only removed redundant information.
+Downloading PhiX reference genome...
+srun: job 35108817 queued and waiting for resources
+srun: job 35108817 has been allocated resources
+Downloading SARS-CoV-2 reference genome...
+srun: job 35108818 queued and waiting for resources
+srun: job 35108818 has been allocated resources
+Downloading Corynebacterium accolens reference genome (https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_023520795.1/)...
+srun: job 35108819 queued and waiting for resources
+srun: job 35108819 has been allocated resources
+Creating bowtie2 index for PhiX genome...
+srun: job 35108820 queued and waiting for resources
+srun: job 35108820 has been allocated resources
+Settings:
+  Output files: "./data/bowtie2_DBs/PhiX_bowtie2_DB.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  ./data/reference_seqs/PhiX_NC_001422.fna
+Building a SMALL index
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+bmax according to bmaxDivN setting: 1346
+Using parameters --bmax 1010 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 1010 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 7; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 0; iterating...
+Avg bucket size: 672.375 (target: 1009)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 8
+  Reserving size (1010) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 940 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 941 for bucket 1
+Getting block 2 of 8
+  Reserving size (1010) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 844 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 845 for bucket 2
+Getting block 3 of 8
+  Reserving size (1010) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 445 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 446 for bucket 3
+Getting block 4 of 8
+  Reserving size (1010) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 633 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 634 for bucket 4
+Getting block 5 of 8
+  Reserving size (1010) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 730 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 731 for bucket 5
+Getting block 6 of 8
+  Reserving size (1010) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 464 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 465 for bucket 6
+Getting block 7 of 8
+  Reserving size (1010) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 338 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 339 for bucket 7
+Getting block 8 of 8
+  Reserving size (1010) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 985 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 986 for bucket 8
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 1291
+fchr[G]: 2448
+fchr[T]: 3702
+fchr[$]: 5386
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 4196376 bytes to primary EBWT file: ./data/bowtie2_DBs/PhiX_bowtie2_DB.1.bt2.tmp
+Wrote 1352 bytes to secondary EBWT file: ./data/bowtie2_DBs/PhiX_bowtie2_DB.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 5386
+    bwtLen: 5387
+    sz: 1347
+    bwtSz: 1347
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 337
+    offsSz: 1348
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 29
+    numLines: 29
+    ebwtTotLen: 1856
+    ebwtTotSz: 1856
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:00:00
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to reverse reference sequence: 00:00:00
+bmax according to bmaxDivN setting: 1346
+Using parameters --bmax 1010 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 1010 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 7; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 0; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 672.375 (target: 1009)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 8
+  Reserving size (1010) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 978 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 979 for bucket 1
+Getting block 2 of 8
+  Reserving size (1010) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 305 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 306 for bucket 2
+Getting block 3 of 8
+  Reserving size (1010) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 898 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 899 for bucket 3
+Getting block 4 of 8
+  Reserving size (1010) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 458 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 459 for bucket 4
+Getting block 5 of 8
+  Reserving size (1010) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 607 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 608 for bucket 5
+Getting block 6 of 8
+  Reserving size (1010) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 655 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 656 for bucket 6
+Getting block 7 of 8
+  Reserving size (1010) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 962 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 963 for bucket 7
+Getting block 8 of 8
+  Reserving size (1010) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 516 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 517 for bucket 8
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 1291
+fchr[G]: 2448
+fchr[T]: 3702
+fchr[$]: 5386
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 4196376 bytes to primary EBWT file: ./data/bowtie2_DBs/PhiX_bowtie2_DB.rev.1.bt2.tmp
+Wrote 1352 bytes to secondary EBWT file: ./data/bowtie2_DBs/PhiX_bowtie2_DB.rev.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 5386
+    bwtLen: 5387
+    sz: 1347
+    bwtSz: 1347
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 337
+    offsSz: 1348
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 29
+    numLines: 29
+    ebwtTotLen: 1856
+    ebwtTotSz: 1856
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:00:00
+Renaming ./data/bowtie2_DBs/PhiX_bowtie2_DB.3.bt2.tmp to ./data/bowtie2_DBs/PhiX_bowtie2_DB.3.bt2
+Renaming ./data/bowtie2_DBs/PhiX_bowtie2_DB.4.bt2.tmp to ./data/bowtie2_DBs/PhiX_bowtie2_DB.4.bt2
+Renaming ./data/bowtie2_DBs/PhiX_bowtie2_DB.1.bt2.tmp to ./data/bowtie2_DBs/PhiX_bowtie2_DB.1.bt2
+Renaming ./data/bowtie2_DBs/PhiX_bowtie2_DB.2.bt2.tmp to ./data/bowtie2_DBs/PhiX_bowtie2_DB.2.bt2
+Renaming ./data/bowtie2_DBs/PhiX_bowtie2_DB.rev.1.bt2.tmp to ./data/bowtie2_DBs/PhiX_bowtie2_DB.rev.1.bt2
+Renaming ./data/bowtie2_DBs/PhiX_bowtie2_DB.rev.2.bt2.tmp to ./data/bowtie2_DBs/PhiX_bowtie2_DB.rev.2.bt2
+Creating bowtie2 index for SARS-CoV-2 genome...
+srun: job 35108822 queued and waiting for resources
+srun: job 35108822 has been allocated resources
+Settings:
+  Output files: "./data/bowtie2_DBs/SC2_bowtie2_DB.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  ./data/reference_seqs/SC2_NC_045512.fna
+Building a SMALL index
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+bmax according to bmaxDivN setting: 7475
+Using parameters --bmax 5607 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 5607 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 3737 (target: 5606)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 8
+  Reserving size (5607) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 4574 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 4575 for bucket 1
+Getting block 2 of 8
+  Reserving size (5607) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 2668 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 2669 for bucket 2
+Getting block 3 of 8
+  Reserving size (5607) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 3483 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 3484 for bucket 3
+Getting block 4 of 8
+  Reserving size (5607) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 4420 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 4421 for bucket 4
+Getting block 5 of 8
+  Reserving size (5607) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 4901 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 4902 for bucket 5
+Getting block 6 of 8
+  Reserving size (5607) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 3813 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 3814 for bucket 6
+Getting block 7 of 8
+  Reserving size (5607) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 2667 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 2668 for bucket 7
+Getting block 8 of 8
+  Reserving size (5607) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 3370 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 3371 for bucket 8
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 8954
+fchr[G]: 14446
+fchr[T]: 20309
+fchr[$]: 29903
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 4204545 bytes to primary EBWT file: ./data/bowtie2_DBs/SC2_bowtie2_DB.1.bt2.tmp
+Wrote 7480 bytes to secondary EBWT file: ./data/bowtie2_DBs/SC2_bowtie2_DB.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 29903
+    bwtLen: 29904
+    sz: 7476
+    bwtSz: 7476
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 1869
+    offsSz: 7476
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 156
+    numLines: 156
+    ebwtTotLen: 9984
+    ebwtTotSz: 9984
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:00:00
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to reverse reference sequence: 00:00:00
+bmax according to bmaxDivN setting: 7475
+Using parameters --bmax 5607 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 5607 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 6; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 3737 (target: 5606)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 8
+  Reserving size (5607) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 2598 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 2599 for bucket 1
+Getting block 2 of 8
+  Reserving size (5607) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 5142 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 5143 for bucket 2
+Getting block 3 of 8
+  Reserving size (5607) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 4371 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 4372 for bucket 3
+Getting block 4 of 8
+  Reserving size (5607) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 4433 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 4434 for bucket 4
+Getting block 5 of 8
+  Reserving size (5607) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 3267 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 3268 for bucket 5
+Getting block 6 of 8
+  Reserving size (5607) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 2880 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 2881 for bucket 6
+Getting block 7 of 8
+  Reserving size (5607) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 5175 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 5176 for bucket 7
+Getting block 8 of 8
+  Reserving size (5607) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 2030 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 2031 for bucket 8
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 8954
+fchr[G]: 14446
+fchr[T]: 20309
+fchr[$]: 29903
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 4204545 bytes to primary EBWT file: ./data/bowtie2_DBs/SC2_bowtie2_DB.rev.1.bt2.tmp
+Wrote 7480 bytes to secondary EBWT file: ./data/bowtie2_DBs/SC2_bowtie2_DB.rev.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 29903
+    bwtLen: 29904
+    sz: 7476
+    bwtSz: 7476
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 1869
+    offsSz: 7476
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 156
+    numLines: 156
+    ebwtTotLen: 9984
+    ebwtTotSz: 9984
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:00:00
+Renaming ./data/bowtie2_DBs/SC2_bowtie2_DB.3.bt2.tmp to ./data/bowtie2_DBs/SC2_bowtie2_DB.3.bt2
+Renaming ./data/bowtie2_DBs/SC2_bowtie2_DB.4.bt2.tmp to ./data/bowtie2_DBs/SC2_bowtie2_DB.4.bt2
+Renaming ./data/bowtie2_DBs/SC2_bowtie2_DB.1.bt2.tmp to ./data/bowtie2_DBs/SC2_bowtie2_DB.1.bt2
+Renaming ./data/bowtie2_DBs/SC2_bowtie2_DB.2.bt2.tmp to ./data/bowtie2_DBs/SC2_bowtie2_DB.2.bt2
+Renaming ./data/bowtie2_DBs/SC2_bowtie2_DB.rev.1.bt2.tmp to ./data/bowtie2_DBs/SC2_bowtie2_DB.rev.1.bt2
+Renaming ./data/bowtie2_DBs/SC2_bowtie2_DB.rev.2.bt2.tmp to ./data/bowtie2_DBs/SC2_bowtie2_DB.rev.2.bt2
+Creating bowtie2 index for Corynebacterium accolens genome...
+srun: job 35108823 queued and waiting for resources
+srun: job 35108823 has been allocated resources
+Settings:
+  Output files: "./data/bowtie2_DBs/CoryAcc_bowtie2_DB.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  ./data/reference_seqs/CoryAcc_NZ_CP046605.fna
+Building a SMALL index
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+bmax according to bmaxDivN setting: 616406
+Using parameters --bmax 462305 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 462305 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 6; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 352231 (target: 462304)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 7
+  Reserving size (462305) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 447269 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 447270 for bucket 1
+Getting block 2 of 7
+  Reserving size (462305) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 398097 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 398098 for bucket 2
+Getting block 3 of 7
+  Reserving size (462305) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 342495 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 342496 for bucket 3
+Getting block 4 of 7
+  Reserving size (462305) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 455476 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 455477 for bucket 4
+Getting block 5 of 7
+  Reserving size (462305) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 292642 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 292643 for bucket 5
+Getting block 6 of 7
+  Reserving size (462305) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 356823 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 356824 for bucket 6
+Getting block 7 of 7
+  Reserving size (462305) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 172816 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 172817 for bucket 7
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 496321
+fchr[G]: 1228591
+fchr[T]: 1964837
+fchr[$]: 2465624
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 5016449 bytes to primary EBWT file: ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.1.bt2.tmp
+Wrote 616412 bytes to secondary EBWT file: ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 2465624
+    bwtLen: 2465625
+    sz: 616406
+    bwtSz: 616407
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 154102
+    offsSz: 616408
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 12842
+    numLines: 12842
+    ebwtTotLen: 821888
+    ebwtTotSz: 821888
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:00:01
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to reverse reference sequence: 00:00:00
+bmax according to bmaxDivN setting: 616406
+Using parameters --bmax 462305 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 462305 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 7; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 0; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 308202 (target: 462304)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 8
+  Reserving size (462305) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 367441 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 367442 for bucket 1
+Getting block 2 of 8
+  Reserving size (462305) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 393905 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 393906 for bucket 2
+Getting block 3 of 8
+  Reserving size (462305) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 183780 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 183781 for bucket 3
+Getting block 4 of 8
+  Reserving size (462305) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 395371 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 395372 for bucket 4
+Getting block 5 of 8
+  Reserving size (462305) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 114067 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 114068 for bucket 5
+Getting block 6 of 8
+  Reserving size (462305) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 380448 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 380449 for bucket 6
+Getting block 7 of 8
+  Reserving size (462305) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 461963 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 461964 for bucket 7
+Getting block 8 of 8
+  Reserving size (462305) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 168642 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 168643 for bucket 8
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 496321
+fchr[G]: 1228591
+fchr[T]: 1964837
+fchr[$]: 2465624
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 5016449 bytes to primary EBWT file: ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.rev.1.bt2.tmp
+Wrote 616412 bytes to secondary EBWT file: ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.rev.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 2465624
+    bwtLen: 2465625
+    sz: 616406
+    bwtSz: 616407
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 154102
+    offsSz: 616408
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 12842
+    numLines: 12842
+    ebwtTotLen: 821888
+    ebwtTotSz: 821888
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:00:01
+Renaming ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.3.bt2.tmp to ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.3.bt2
+Renaming ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.4.bt2.tmp to ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.4.bt2
+Renaming ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.1.bt2.tmp to ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.1.bt2
+Renaming ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.2.bt2.tmp to ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.2.bt2
+Renaming ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.rev.1.bt2.tmp to ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.rev.1.bt2
+Renaming ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.rev.2.bt2.tmp to ./data/bowtie2_DBs/CoryAcc_bowtie2_DB.rev.2.bt2
+Aligning merged reads against PhiX genome...
+srun: job 35108824 queued and waiting for resources
+srun: job 35108824 has been allocated resources
+3565869 reads; of these:
+  3565869 (100.00%) were unpaired; of these:
+    3565869 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+No hits against PhiX were observed.
+Aligning merged reads against SARS-CoV-2 genome...
+srun: job 35108825 queued and waiting for resources
+srun: job 35108825 has been allocated resources
+3565869 reads; of these:
+  3565869 (100.00%) were unpaired; of these:
+    3559584 (99.82%) aligned 0 times
+    6285 (0.18%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.18% overall alignment rate
+SARS-CoV-2: 0.18% overall alignment rate.
+Aligning merged reads against Corynebacterium accolens genome...
+srun: job 35108828 queued and waiting for resources
+srun: job 35108828 has been allocated resources
+3565869 reads; of these:
+  3565869 (100.00%) were unpaired; of these:
+    3544379 (99.40%) aligned 0 times
+    1223 (0.03%) aligned exactly 1 time
+    20267 (0.57%) aligned >1 times
+0.60% overall alignment rate
+Corynebacterium accolens: 0.60% overall alignment rate.
+Combining quality control results with MultiQC...
+srun: job 35108829 queued and waiting for resources
+srun: job 35108829 has been allocated resources
+
+  /// MultiQC 🔍 | v1.21
+
+|           multiqc | MultiQC Version v1.22.1 now available!
+|           multiqc | Report title: x_yuqzh sample sub-set
+|           multiqc | Search path : /proj/applied_bioinformatics/users/x_yuqzh/MedBioinfo/data/merged_pairs
+|           multiqc | Search path : /proj/applied_bioinformatics/users/x_yuqzh/MedBioinfo/analyses/fastqc
+|           multiqc | Search path : /proj/applied_bioinformatics/users/x_yuqzh/MedBioinfo/analyses/x_yuqzh_flash.log
+|           multiqc | Search path : /proj/applied_bioinformatics/users/x_yuqzh/MedBioinfo/analyses/bowtie
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 97/97  
+|           bowtie2 | Found 3 reports
+|            fastqc | Found 20 reports
+|             flash | Found 10 log reports
+|             flash | Found 10 histogram reports
+|           multiqc | Report      : x_yuqzh-sample-sub-set_multiqc_report.html
+|           multiqc | Data        : x_yuqzh-sample-sub-set_multiqc_report_data
+|           multiqc | MultiQC complete
+Sun May 26 23:40:48 CEST 2024
