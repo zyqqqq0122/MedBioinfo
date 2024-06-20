@@ -1,4 +1,0 @@
-Sample	total_reads	unpaired_total	unpaired_aligned_none	unpaired_aligned_one	unpaired_aligned_multi	overall_alignment_rate
-x_yuqzh_bowtie2_CoryAcc	3565869	3565869	3544379	1223	20267	0.6
-x_yuqzh_bowtie2_PhiX	3565869	3565869	3565869	0	0	0.0
-x_yuqzh_bowtie2_SC2	3565869	3565869	3559584	6285	0	0.18

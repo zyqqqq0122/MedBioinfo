@@ -1,3 +1,0 @@
-Sample	FastQC	FLASh
-FLASh		1.2.11
-FastQC	0.12.1	
